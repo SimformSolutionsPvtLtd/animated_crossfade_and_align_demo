@@ -13,21 +13,25 @@ class _AnimatedCrossfadeDemoState extends State<AnimatedCrossfadeDemo> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Animated Crossfade Demo'),
+        backgroundColor: Color(0xffef5366),
       ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             AnimatedCrossFade(
-              firstChild:
-                  FlutterLogo(style: FlutterLogoStyle.stacked, size: 150.0),
-              secondChild:
-                  FlutterLogo(style: FlutterLogoStyle.horizontal, size: 250.0),
-              crossFadeState:
-                  animate ? CrossFadeState.showFirst : CrossFadeState.showSecond,
+              firstChild: Padding(
+                padding: const EdgeInsets.all(30.0),
+                child: Image.asset('assets/logo-full.png'),
+              ),
+              secondChild: Image.asset('assets/logo.png'),
+              crossFadeState: animate
+                  ? CrossFadeState.showFirst
+                  : CrossFadeState.showSecond,
               firstCurve: Curves.easeIn,
               duration: Duration(seconds: 1),
-              sizeCurve: Curves.bounceOut,
+              alignment: Alignment.center,
+              sizeCurve: Curves.easeOut,
             ),
             SizedBox(
               height: 20,
@@ -38,6 +42,9 @@ class _AnimatedCrossfadeDemoState extends State<AnimatedCrossfadeDemo> {
                     animate = !animate;
                   });
                 },
+                style: ElevatedButton.styleFrom(
+                  primary: Color(0xffef5366),
+                ),
                 child: Text('animate')),
           ],
         ),

@@ -1,16 +1,14 @@
-# animated_crossfade_demo
+# Animated Crossfade and Animated Align Demo
 
-A new Flutter application.
+![Audio Waveforms - Simform LLC.](https://github.com/ujas-m-simformsolutions/animated_crossfade_and_align_demo/blob/master/assets/simformBanner.png)
 
-## Getting Started
+This is a small demo project to demonstrate the usage of Animated Crossfade and Animated Align widget.
 
-This project is a starting point for a Flutter application.
+You can visit this [medium-blog](https://medium.com/@ujasthakkar54/animate-widgets-with-animatedcrossfade-and-animatedalign-72d76b91cf49) to get full explanation of the demo.
 
-A few resources to get you started if this is your first Flutter project:
+Here are the demos from blog
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+| Animated Crossfade |  Animated Align |
+|---|---|
+|<a href="https://raw.githubusercontent.com/ujas-m-simformsolutions/animated_crossfade_and_align_demo/master/assets/crossfade.gif"><img src="https://raw.githubusercontent.com/ujas-m-simformsolutions/animated_crossfade_and_align_demo/master/assets/crossfade.gif" width="390px;" height="700px;"/></a>  |  <a href="https://raw.githubusercontent.com/ujas-m-simformsolutions/animated_crossfade_and_align_demo/master/assets/align.gif"><img src="https://raw.githubusercontent.com/ujas-m-simformsolutions/animated_crossfade_and_align_demo/master/assets/align.gif" width="390px;" height="700px;"/></a> |
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.

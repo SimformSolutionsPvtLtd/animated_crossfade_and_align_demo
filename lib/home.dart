@@ -15,28 +15,31 @@ class _HomeState extends State<Home> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Animated Crossfade Demo'),
+        backgroundColor: Color(0xffef5366),
       ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             ElevatedButton(
-                onPressed: () {
-                  Navigator.push(
+                onPressed: () => Navigator.push(
                       context,
                       MaterialPageRoute(
-                          builder: (_) => AnimatedCrossfadeDemo()));
-                },
+                          builder: (_) => AnimatedCrossfadeDemo()),
+                    ),
+                style: ElevatedButton.styleFrom(
+                  primary: Color(0xffef5366),
+                ),
                 child: Text('AnimatedCrossfade Demo')),
             ElevatedButton(
-                onPressed: () {
-                  Navigator.push(
+                onPressed: () => Navigator.push(
                       context,
-                      MaterialPageRoute(
-                          builder: (_) => AnimatedAlignDemo()));
-                },
+                      MaterialPageRoute(builder: (_) => AnimatedAlignDemo()),
+                    ),
+                style: ElevatedButton.styleFrom(
+                  primary: Color(0xffef5366),
+                ),
                 child: Text('Animated Align Demo')),
-
           ],
         ),
       ),
