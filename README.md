@@ -10,5 +10,5 @@ Here are the demos from blog
 
 | Animated Crossfade |  Animated Align |
 |---|---|
-|<a href="https://raw.githubusercontent.com/ujas-m-simformsolutions/animated_crossfade_and_align_demo/master/assets/crossfade.gif"><img src="https://raw.githubusercontent.com/ujas-m-simformsolutions/animated_crossfade_and_align_demo/master/assets/crossfade.gif" width="390px;" height="700px;"/></a>  |  <a href="https://raw.githubusercontent.com/ujas-m-simformsolutions/animated_crossfade_and_align_demo/master/assets/align.gif"><img src="https://raw.githubusercontent.com/ujas-m-simformsolutions/animated_crossfade_and_align_demo/master/assets/align.gif" width="390px;" height="700px;"/></a> |
+|<a href="https://raw.githubusercontent.com/ujas-m-simformsolutions/animated_crossfade_and_align_demo/master/assets/crossfade.gif"><img src="https://raw.githubusercontent.com/ujas-m-simformsolutions/animated_crossfade_and_align_demo/master/assets/crossfade.gif" width="360px;" height="700px;"/></a>  |  <a href="https://raw.githubusercontent.com/ujas-m-simformsolutions/animated_crossfade_and_align_demo/master/assets/align.gif"><img src="https://raw.githubusercontent.com/ujas-m-simformsolutions/animated_crossfade_and_align_demo/master/assets/align.gif" width="360px;" height="700px;"/></a> |
 
