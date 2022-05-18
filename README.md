@@ -1,6 +1,6 @@
 # Animated Crossfade and Animated Align Demo
 
-![Audio Waveforms - Simform LLC.](https://github.com/ujas-m-simformsolutions/animated_crossfade_and_align_demo/blob/master/assets/simformBanner.png)
+![Simform LLC.](https://github.com/ujas-m-simformsolutions/animated_crossfade_and_align_demo/blob/master/assets/simformBanner.png)
 
 This is a small demo project to demonstrate the usage of Animated Crossfade and Animated Align widget.
 
